@@ -5,7 +5,11 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "accelerate>=1.10.0",
     "datasets>=4.0.0",
     "distilabel[openai]>=1.5.3",
     "pillow>=11.3.0",
+    "torch>=2.8.0",
+    "transformers>=4.55.0",
+    "wandb>=0.21.1",
 ]
